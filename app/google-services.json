@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "365518335007",
+    "firebase_url": "https://lakshya-family.firebaseio.com",
+    "project_id": "lakshya-family",
+    "storage_bucket": "lakshya-family.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365518335007:android:d8f648695884048a",
+        "android_client_info": {
+          "package_name": "com.lakshya.lakshyafamily"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365518335007-dq80ldl4b7t8aj84u6915lkf5gpgltcm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lakshya.lakshyafamily",
+            "certificate_hash": "835d796509893f291924dd7733012a3fcf6de5d8"
+          }
+        },
+        {
+          "client_id": "365518335007-e9894e5usbfp9134ktrn315er6975oo1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg643ian7__zM5rJbhsp2U3CXV2yWVgJc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365518335007-e9894e5usbfp9134ktrn315er6975oo1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

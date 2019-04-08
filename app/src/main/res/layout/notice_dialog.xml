@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="350dp"
+    android:layout_height="350dp"
+    android:layout_gravity="center"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/add_notice"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:id="@+id/notice_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@android:color/transparent"
+            android:gravity="top"
+            android:hint="Notice heading"
+            android:inputType="textCapSentences|textMultiLine"
+            android:textColorHint="#aea2a2"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:id="@+id/notice_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@android:color/transparent"
+            android:gravity="top"
+            android:hint="Notice Details"
+            android:inputType="textCapSentences|textMultiLine"
+            android:textColorHint="#aea2a2"
+            android:textSize="20dp" />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

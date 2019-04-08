@@ -1,0 +1,429 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/student_information"
+            android:fontFamily="monospace"
+            android:textSize="25dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/user_photo"
+            android:background="@drawable/ic_person_black_24dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="choose photo...!!"
+            android:textColor="#000"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/ic_add_a_photo_black_24dp"
+            android:id="@+id/change_photo"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name: "
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/student_name"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="20dp"
+        />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-mail: "
+
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/student_email"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:id="@+id/password"/>
+
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Date Of Birth"
+            android:id="@+id/stud_dob"/>
+
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Mobile Number"
+        android:id="@+id/stud_phone"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/education_qualification"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_margin="10dp"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:scrollbars="none"
+        >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+           <TextView
+               android:layout_width="140dp"
+               android:layout_height="wrap_content"
+               android:text="Matriculation"
+               android:textSize="17dp"
+               android:textColor="@color/colorPrimary"
+               android:layout_margin="5dp"/>
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:minEms="5"
+                android:hint="Subject"
+                android:id="@+id/matriculation_subject"
+                />
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:minEms="5"
+                android:hint="Board"
+                android:id="@+id/matriculation_board"
+                />
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:minEms="5"
+                android:hint="Percent"
+                android:id="@+id/matriculation_percent"
+                />
+
+
+        </LinearLayout>
+
+
+        
+    </HorizontalScrollView>
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:scrollbars="none"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="Intermediate"
+                android:textSize="17dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_margin="5dp"/>
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:minEms="5"
+                android:hint="Subject"
+                android:id="@+id/Inter_subject"
+                />
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:minEms="5"
+                android:hint="Board"
+                android:id="@+id/Inter_board"
+                />
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:minEms="5"
+                android:hint="Percent"
+                android:id="@+id/Inter_percent"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </HorizontalScrollView>
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:scrollbars="none"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="Graduation"
+                android:textSize="17dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_margin="5dp"/>
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:minEms="5"
+                android:hint="Subject"
+                android:id="@+id/graduation_subject"
+                />
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:minEms="5"
+                android:hint="Board"
+                android:id="@+id/graduation_board"
+                />
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:minEms="5"
+                android:hint="Percent"
+                android:id="@+id/graduation_percent"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </HorizontalScrollView>
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:scrollbars="none"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="Post Graduation"
+                android:textSize="17dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_margin="5dp"/>
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:minEms="5"
+                android:hint="Subject"
+                android:id="@+id/PostGraduation_subject"
+                />
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:minEms="5"
+                android:hint="Board"
+                android:id="@+id/PostGraduation_board"
+                />
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:minEms="5"
+                android:hint="Percent"
+                android:id="@+id/PostGraduation_percent"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </HorizontalScrollView>
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="70dp"
+        android:layout_margin="10dp"
+        android:scrollbars="none"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="Any Other Qualification"
+                android:textSize="17dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_margin="5dp"/>
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:minEms="15"
+                android:hint="Details"
+                android:id="@+id/Other_details"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+    </HorizontalScrollView>
+
+
+
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Hobby"
+        android:id="@+id/stud_hobby"/>
+
+
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Extra Activities"
+        android:id="@+id/stud_activities"/>
+
+       <CheckBox
+           android:gravity="center"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/have_joined"
+           android:text="Have you Joined any Coaching yet?? "/>
+
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Q:   Why do You want to join Lakshya???"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:id="@+id/answer"
+            android:hint="Ans..."
+            />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="150dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/button_style"
+            android:text="Submit"
+            android:drawableEnd="@drawable/ic_send_black_24dp"
+            android:drawablePadding="10dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

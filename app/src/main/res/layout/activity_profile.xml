@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#caf96001"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="5dp"
+        android:layout_margin="10dp">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="40dp">
+
+
+        <TableRow
+            >
+            <ImageView
+                android:id="@+id/stud_photo"
+                android:layout_width="200dp"
+                android:layout_height="200dp"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/profile_heading"
+                android:text="Name: "/>
+            <TextView
+                style="@style/profile_data"
+                android:id="@+id/student_name"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/profile_heading"
+                android:text="Email-ID: "/>
+            <TextView
+                style="@style/profile_data"
+                android:id="@+id/student_email"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/profile_heading"
+                android:text="Date Of Birth: "/>
+            <TextView
+                style="@style/profile_data"
+                android:id="@+id/stud_dob"/>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                style="@style/profile_heading"
+                android:text="Mobile Number: "/>
+            <TextView
+                style="@style/profile_data"
+                android:id="@+id/stud_phone"/>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                style="@style/profile_heading"
+                android:text="Subject in Matric: "/>
+            <TextView
+                style="@style/profile_data"
+                android:id="@+id/matriculation_subject"/>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                style="@style/profile_heading"
+                android:text="Board in matric: "/>
+            <TextView
+                style="@style/profile_data"
+                android:id="@+id/matriculation_board"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/profile_heading"
+                android:text="Percent in Matric: "/>
+            <TextView
+                style="@style/profile_data"
+                android:id="@+id/matriculation_percent"/>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                style="@style/profile_heading"
+                android:text="Subject in Inter: "/>
+            <TextView
+                style="@style/profile_data"
+                android:id="@+id/Inter_subject"/>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                style="@style/profile_heading"
+                android:text="Board in Inter: "/>
+            <TextView
+                style="@style/profile_data"
+                android:id="@+id/Inter_board"/>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                style="@style/profile_heading"
+                android:text="Percent in Inter: "/>
+            <TextView
+                style="@style/profile_data"
+                android:id="@+id/Inter_percent"/>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                style="@style/profile_heading"
+                android:text="Subject in Graduation: "/>
+            <TextView
+                style="@style/profile_data"
+                android:id="@+id/graduation_subject"/>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                style="@style/profile_heading"
+                android:text="University : "/>
+            <TextView
+                style="@style/profile_data"
+                android:id="@+id/graduation_board"/>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                style="@style/profile_heading"
+                android:text="Percent in Graduation: "/>
+            <TextView
+                style="@style/profile_data"
+                android:id="@+id/graduation_percent"/>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                style="@style/profile_heading"
+                android:text="Subject in Post-Graduation: "/>
+            <TextView
+                style="@style/profile_data"
+                android:id="@+id/PostGraduation_subject"/>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                style="@style/profile_heading"
+                android:text="University: "/>
+            <TextView
+                style="@style/profile_data"
+                android:id="@+id/PostGraduation_board"/>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                style="@style/profile_heading"
+                android:text="Percent in Post-Graduation: "/>
+            <TextView
+                style="@style/profile_data"
+                android:id="@+id/PostGraduation_percent"/>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                style="@style/profile_heading"
+                android:text="Other Qualification: "/>
+            <TextView
+                style="@style/profile_data"
+                android:id="@+id/Other_details"/>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                style="@style/profile_heading"
+                android:text="Hobby: "/>
+            <TextView
+                style="@style/profile_data"
+                android:id="@+id/stud_hobby"/>
+
+        </TableRow><TableRow>
+
+        <TextView
+            style="@style/profile_heading"
+            android:text="Extra Activities: "/>
+        <TextView
+            style="@style/profile_data"
+            android:id="@+id/stud_activities"/>
+
+    </TableRow>
+
+
+
+    </TableLayout>
+
+    </HorizontalScrollView>
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+</ScrollView>

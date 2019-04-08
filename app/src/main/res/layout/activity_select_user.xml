@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+
+    tools:context=".SelectUser">
+
+    <Button
+        style="@style/buttton"
+        android:text="Member"
+        android:id="@+id/select_member"
+        />
+
+    <Button
+        style="@style/buttton"
+        android:text="Student"
+        android:id="@+id/select_student"
+        />
+
+</LinearLayout>
